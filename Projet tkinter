@@ -1,0 +1,34 @@
+Le but de ce projet est de créer une petite app avec interface graphique en utilisant tkinter.
+
+
+J'ai une classe Password
+
+Celle ci permet de créer un mot de passe, elle ne prend rien pour être créée
+Elle possède un attribut 'password'
+Elle possède une fonction 'generate_password'
+
+generate password utilise une suite de caractère pour générer un mot de passe d'une longueur
+inscrite par l'utilisateur
+
+Elle doit sélectionner les caractères de manière aléatoire => Comment faire ?
+Je dois chercher sur le net, surement avec le package random ?
+
+
+Au niveau de l'écran je dois avec 3 boutons 'password strength' ayant respectivement pour valeur:
+WEAK / MEDIUM / STRONG
+
+Par défaut le bouton 'weak' est sélectionné et doit être distingable des autres boutons,
+il s'agit également de la valeur par défaut de 'password_strenght' de la method
+Password.generate_password()
+
+Lorsqu'on sélectionne un bouton, on doit avoir un élément visuel indiquant quel bouton est sélectionné
+Et cela permet de préparer la valeur à passer à Password.generate_password(password_strength)
+
+Ensuite on a un bouton 'Generate Password' qui récupère une valeur password_strength pour la
+passer à Password.generate_password.
+
+Puis on a un champ text sélectionnable mais non modifiable qui contient la valeur de
+Password.password_generated
+
+Et on a aussi un bouton 'COPIER' pour ajouter la valeur du champ contenant le Password.password_generated
+dans le presse papier
