@@ -1,3 +1,7 @@
+/!\ A PRIORI TKINTER NE FONCTIONNE PAS BIEN AVEC LA VERSION 3.13 DE PYTHON VIA PYCHARM - A VERIFIER / DEBUGGER /!\
+
+
+
 Le but de ce projet est de créer une petite app avec interface graphique en utilisant tkinter.
 
 
