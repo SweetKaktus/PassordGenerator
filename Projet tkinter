@@ -1,5 +1,7 @@
 /!\ A PRIORI TKINTER NE FONCTIONNE PAS BIEN AVEC LA VERSION 3.13 DE PYTHON VIA PYCHARM - A VERIFIER / DEBUGGER /!\
-
+A priori pour corriger le bug il faudrait que je passe sur une version antérieur de python (3.12 ou 3.11 par exemple)
+Je ne suis pas sûr que cela vaille le coup par rapport à ce que je veux faire, je pense continuer ce projet mais éventuellement avec
+QT
 
 
 Le but de ce projet est de créer une petite app avec interface graphique en utilisant tkinter.
