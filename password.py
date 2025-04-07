@@ -6,9 +6,9 @@ class Password():
                  chars: str='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!:;,/.?ù%*$-+',
                  password_generated: str=''):
         self.chars = chars
-        self.password_generated = password_generated
+        self.password_generated: str = password_generated
 
-    def generate_password(self, password_strength: str):
+    def generate_password(self, password_strength: str) -> None:
         chars: str = self.chars
         alnum_chars: str = ''
         match password_strength:
@@ -24,7 +24,6 @@ class Password():
             case 'STRONG':
                 for i in range(18):
                     self.password_generated += random.choice(chars)
-                    return
             case _:
                 raise ValueError
 
